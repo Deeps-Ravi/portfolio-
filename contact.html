@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Deepika Ravichandiran | Get In Touch</title>
+    <meta name="description" content="Get in touch with Deepika Ravichandiran. Fill out the contact form or reach out directly via email, phone, or social profiles.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. LOADING SCREEN -->
+    <div id="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- 2. SCROLL PROGRESS INDICATOR -->
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- 3. NAVIGATION HEADER -->
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Deepika<span>.</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger" aria-label="Menu Toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 4. PAGE TITLE HEADER -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Have a question or want to discuss a project? Drop a message or connect via the social handles below.</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- 5. CONTACT FORM & INFO SECTION -->
+        <section class="contact-section">
+            <div class="container contact-grid">
+                
+                <!-- Left Side: Interactive Contact Form -->
+                <div class="glass-card contact-card">
+                    <h3>Send A Message</h3>
+                    <form id="portfolioContactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name <span style="color:var(--primary)">*</span></label>
+                                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address <span style="color:var(--primary)">*</span></label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="6384305908">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Project Opportunity">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message <span style="color:var(--primary)">*</span></label>
+                            <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+
+                <!-- Right Side: Info Panel & Google Maps -->
+                <div class="contact-info-panel">
+                    
+                    <!-- Direct Contacts Card -->
+                    <div class="glass-card contact-info-card">
+                        <ul class="contact-info-list">
+                            <li>
+                                <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:6384305908">6384305908</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>Email Address</h4>
+                                    <p><a href="mailto:deepu199dmh@gmail.com">deepu199dmh@gmail.com</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>Location</h4>
+                                    <p>Tamil Nadu, India</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Media Card -->
+                    <div class="glass-card contact-info-card social-section">
+                        <h4>Social Profiles</h4>
+                        <div class="social-links">
+                            <!-- LinkedIn -->
+                            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/deepika-r" target="_blank" class="social-link" aria-label="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram Profile">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Google Maps Placeholder Container -->
+                    <div class="map-container">
+                        <!-- Standard Free Google Map Embed focusing on Chennai, Tamil Nadu, India -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2842416045657!2d80.20703817578772!3d13.080562987244907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52661c947c94c9%3A0x600122e23b2dc9bb!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1717872584102!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Location Map"
+                        ></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo footer-logo">Deepika<span>.</span></a>
+                <p>A B.Tech Information Technology Graduate seeking professional growth opportunities in software engineering, AI, and full-stack development.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <span>6384305908</span></li>
+                    <li><i class="fas fa-envelope"></i> <span><a href="mailto:deepu199dmh@gmail.com">deepu199dmh@gmail.com</a></span></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <span>Tamil Nadu, India</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deepika Ravichandiran. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 7. SCROLL TO TOP -->
+    <div id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>

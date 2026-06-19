@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepika Ravichandiran | Portfolio | B.Tech IT Graduate</title>
+    <meta name="description" content="Personal portfolio of Deepika Ravichandiran, a B.Tech Information Technology graduate specializing in Web Development, Software Engineering, and AI.">
+    <meta name="keywords" content="Deepika Ravichandiran, Portfolio, B.Tech IT, Web Development, Java, Python, HTML, CSS, JavaScript, React, MySQL, Software Engineering">
+    <meta name="author" content="Deepika Ravichandiran">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. LOADING SCREEN -->
+    <div id="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- 2. SCROLL PROGRESS INDICATOR -->
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- 3. NAVIGATION HEADER -->
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo" id="logo-link">Deepika<span>.</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger" aria-label="Menu Toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 4. HERO SECTION -->
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tag">B.Tech Information Technology</span>
+                    <h1 class="hero-title">
+                        <span>Deepika Ravichandiran</span>
+                    </h1>
+                    <div class="hero-typing">
+                        <span id="typewriter-text"></span>
+                        <span class="typing-cursor"></span>
+                    </div>
+                    <p class="hero-desc">
+                        Aspiring software engineer and web developer. Equipped with a solid foundation in programming, database architectures, and front-end tools, I specialize in building responsive, efficient, and user-centric web applications.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="projects.html" class="btn btn-primary">View Portfolio <i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Me <i class="fas fa-envelope"></i></a>
+                        <a href="Deepika_Resume.pdf" download="Deepika_Ravichandiran_Resume.pdf" class="btn btn-outline">Download Resume <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-img-backdrop"></div>
+                    <div class="hero-img">
+                        <!-- Premium abstract avatar placeholder -->
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="M38.8,-49C52.4,-37.2,67,-27.1,72.3,-13.2,77.7,0.7,73.8,18.4,65.3,33.5,56.8,48.7,43.6,61.3,27.8,68.4,12.1,75.4,-6.3,77,-24,72.1,-41.8,67.3,-58.9,56.1,-67.2,40.4,-75.6,24.7,-75.3,4.4,-70.6,-13.7,-66,-31.8,-57.1,-47.7,-43.3,-59.5C-29.5,-71.4,-14.7,-79.2,-0.9,-78.1C13,-77,25.9,-67,38.8,-49Z" transform="translate(100 100)" />
+                            <circle cx="100" cy="85" r="30" fill="var(--bg-base)" />
+                            <path d="M60 145 C 60 115, 140 115, 140 145 Z" fill="var(--bg-base)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. HIGHLIGHTS SECTION -->
+        <section class="highlights" id="highlights">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Key Highlights</h2>
+                    <p>A quick overview of my academic background, technical expertise, and qualifications.</p>
+                </div>
+                <div class="highlights-grid">
+                    <!-- Education Card -->
+                    <div class="glass-card highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>B.Tech in Information Technology. Grounded in computational theory, network designs, and data management.</p>
+                        <a href="about.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <!-- Skills Card -->
+                    <div class="glass-card highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Technical Skills</h3>
+                        <p>Proficient in Java, Python, C, Javascript, HTML/CSS, React, Node.js, and database systems like MySQL.</p>
+                        <a href="skills.html" class="learn-more">View Skills <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <!-- Projects Card -->
+                    <div class="glass-card highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <h3>Featured Projects</h3>
+                        <p>Hands-on experience developing Student Management portals, custom portfolios, and e-commerce checkouts.</p>
+                        <a href="projects.html" class="learn-more">Browse Projects <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <!-- Certifications Card -->
+                    <div class="glass-card highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Certifications</h3>
+                        <p>Acquired multiple technical credentials focusing on modern full-stack development and programming languages.</p>
+                        <a href="about.html#education" class="learn-more">See Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. STATISTICS SECTION -->
+        <section class="stats" id="statistics">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="12">0+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="18">0+</div>
+                    <div class="stat-label">Technical Skills</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8">0+</div>
+                    <div class="stat-label">Certifications</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2">0+</div>
+                    <div class="stat-label">Internships</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. CALL TO ACTION SECTION -->
+        <section class="cta" id="cta">
+            <div class="container">
+                <div class="glass-card cta-container">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Let's Build Something Amazing Together</h2>
+                        <p class="cta-desc">I am actively looking for software engineering internships, graduate training programs, and entry-level positions in Web Development and IT. Let's discuss how my dedication and skills can benefit your organization.</p>
+                        <a href="contact.html" class="btn btn-primary">Start a Conversation <i class="fas fa-paper-plane"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo footer-logo">Deepika<span>.</span></a>
+                <p>A B.Tech Information Technology Graduate seeking professional growth opportunities in software engineering, AI, and full-stack development.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <span>6384305908</span></li>
+                    <li><i class="fas fa-envelope"></i> <span><a href="mailto:deepu199dmh@gmail.com">deepu199dmh@gmail.com</a></span></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <span>Tamil Nadu, India</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deepika Ravichandiran. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 9. SCROLL TO TOP -->
+    <div id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>

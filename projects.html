@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepika Ravichandiran | Projects Showcase</title>
+    <meta name="description" content="View the technical projects developed by Deepika Ravichandiran, including management portals, e-commerce prototypes, and AI chatbot interfaces.">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. LOADING SCREEN -->
+    <div id="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- 2. SCROLL PROGRESS INDICATOR -->
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- 3. NAVIGATION HEADER -->
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Deepika<span>.</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger" aria-label="Menu Toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 4. PAGE TITLE HEADER -->
+    <header class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>A collection of software systems and web interfaces developed during my academic and training tenure.</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- 5. PROJECTS GRID SECTION -->
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Student Management System -->
+                    <div class="glass-card project-card">
+                        <div class="project-img-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="25" y="20" width="50" height="60" rx="5" fill="none" stroke="currentColor" stroke-width="4" />
+                                <circle cx="37" cy="35" r="5" fill="currentColor" />
+                                <circle cx="37" cy="50" r="5" fill="currentColor" />
+                                <circle cx="37" cy="65" r="5" fill="currentColor" />
+                                <line x1="50" y1="35" x2="70" y2="35" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                                <line x1="50" y1="50" x2="70" y2="50" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                                <line x1="50" y1="65" x2="70" y2="65" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                            </svg>
+                            <span class="project-badge">Web Application</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Student Management System</h3>
+                            <p class="project-desc">A web-based database system developed to manage student records, course enrollments, and academic performance tracking in administrative environments.</p>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Student & faculty profile management</li>
+                                    <li>Secure login system with role hierarchies</li>
+                                    <li>Automated grade sheet calculation & entry</li>
+                                    <li>Interactive reports for class averages</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/deepika-r" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Online Portfolio Website -->
+                    <div class="glass-card project-card">
+                        <div class="project-img-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="15" y="20" width="70" height="60" rx="6" fill="none" stroke="currentColor" stroke-width="4" />
+                                <circle cx="30" cy="32" r="4" fill="currentColor" />
+                                <line x1="15" y1="45" x2="85" y2="45" stroke="currentColor" stroke-width="4" />
+                                <path d="M40 70 L60 70" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                            </svg>
+                            <span class="project-badge">Frontend UI</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Online Portfolio Website</h3>
+                            <p class="project-desc">A highly responsive, animated personal portfolio designed to showcase skills, education, and project records using modern Glassmorphic styling.</p>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Light and Dark mode toggle with local persistence</li>
+                                    <li>Smooth typewriter typing animation headers</li>
+                                    <li>Dynamic statistics counter using observers</li>
+                                    <li>Fully customized float AI chatbot assistant</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Vanilla JS</span>
+                                <span class="tech-tag">SEO Meta</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/deepika-r" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                <a href="index.html" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: E-Commerce Website -->
+                    <div class="glass-card project-card">
+                        <div class="project-img-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="35" cy="80" r="6" fill="currentColor" />
+                                <circle cx="75" cy="80" r="6" fill="currentColor" />
+                                <path d="M15 20 H30 L45 60 H80 L90 30 H35" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span class="project-badge">Full Stack</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Website</h3>
+                            <p class="project-desc">A functional online shopping portal carrying administrative options, product catalogs, shopping carts, and dynamic totals management.</p>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Dynamic catalog retrieval with search filters</li>
+                                    <li>State-driven shopping cart (add, edit quantities)</li>
+                                    <li>Responsive products grid structure</li>
+                                    <li>Mock secure checkout module and totals card</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/deepika-r" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: AI Chatbot Assistant -->
+                    <div class="glass-card project-card">
+                        <div class="project-img-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="25" y="25" width="50" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="4" />
+                                <circle cx="40" cy="45" r="4" fill="currentColor" />
+                                <circle cx="60" cy="45" r="4" fill="currentColor" />
+                                <path d="M40 60 Q50 68 60 60" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                                <path d="M50 15 V25" stroke="currentColor" stroke-width="4" />
+                                <circle cx="50" cy="13" r="3" fill="currentColor" />
+                            </svg>
+                            <span class="project-badge">JavaScript Tool</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Chatbot Assistant</h3>
+                            <p class="project-desc">An interactive, intelligent floating chatbot utility that parses natural text input keywords to answer questions about skills, projects, and education.</p>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Dynamic overlay panel toggles with transitions</li>
+                                    <li>Animated typing status indicator simulation</li>
+                                    <li>Quick reply suggested questions bubbles</li>
+                                    <li>Responsive overflow conversation panels</li>
+                                </ul>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Backdrop Filter</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/deepika-r" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="index.html" class="logo footer-logo">Deepika<span>.</span></a>
+                <p>A B.Tech Information Technology Graduate seeking professional growth opportunities in software engineering, AI, and full-stack development.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <span>6384305908</span></li>
+                    <li><i class="fas fa-envelope"></i> <span><a href="mailto:deepu199dmh@gmail.com">deepu199dmh@gmail.com</a></span></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <span>Tamil Nadu, India</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Deepika Ravichandiran. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 7. SCROLL TO TOP -->
+    <div id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
